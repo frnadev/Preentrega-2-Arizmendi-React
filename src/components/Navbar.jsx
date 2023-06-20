@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom";
 import { Cartwidget } from "./Cartwidget";
 
 export const Navbar = () => {
   return (
     <nav>
-      <h2>Placeholder</h2>
+      <h2>
+        <Link to="/">Placeholder</Link>
+      </h2>
       <div>
         <button>Camperas</button>
         <button>Remeras</button>
